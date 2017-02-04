@@ -1,0 +1,61 @@
+/* GENERAL */
+
+body {
+    margin: 0px;
+    font-family: 'Arvo', serif;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: #2d5084;
+    text-decoration: none;
+}
+
+/* NAVIGATION */
+
+h1 {
+    font-size: 3em;
+    font-family: 'Carrois Gothic', sans-serif;
+    margin: 5px;
+}
+
+p {
+    margin: 10px;
+}
+
+img {
+    border: solid white 4px;
+}
+
+.row {
+    width: 100%;
+}
+
+.section-about {
+    background-color: #2d5084;
+    color: white;
+}
+
+.section-title {
+    background-color: #293854;
+    color: white;
+}
+
+@media only screen and (min-width: 520px) {
+    .section {
+        height: 100%;
+    }
+    .title {
+        font-size: 7em;
+        width: 100%;
+        position: relative;
+        top: 20%;
+        -ms-transform: rotate(90deg); /* IE 9 */
+        -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+        transform: rotate(90deg);
+    }
+}
+
