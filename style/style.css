@@ -51,9 +51,6 @@ i {
     background-color: #293854;
     color: white;
 }
-.powered {
-    font-size: .8em;
-}
 
 .contact * {
     display: inline-block;
@@ -72,15 +69,12 @@ i {
         font-size: 7em;
         width: 100%;
         position: relative;
-        top: 20%;
+        top: 25%;
         -ms-transform: rotate(90deg); /* IE 9 */
         -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
         transform: rotate(90deg);
     }
     .powered {
-      vertical-align: bottom;
-      position: relative;
-      top: 50%;
+        margin-top: 65%;
     }
 }
-
