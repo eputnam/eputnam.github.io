@@ -10,7 +10,7 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+.contact:hover {
     color: #2d5084;
 }
 
@@ -34,6 +34,10 @@ img {
     right: 4px;
 }
 
+i {
+    margin: 3% 5px;
+}
+
 .row {
     width: 100%;
 }
@@ -51,6 +55,14 @@ img {
     font-size: .8em;
 }
 
+.contact * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.contact p {
+    color: #777;
+}
 
 @media screen and (min-width: 520px) {
     .section {
