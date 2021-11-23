@@ -1,8 +1,11 @@
-/* GENERAL */
-
 body {
-    margin: 0px;
-    font-family: 'Arvo', serif;
+    margin: 5px 20px;
+    font-family: monospace;
+    font-size: 3em;
+}
+
+ul {
+  list-style: none;
 }
 
 a {
@@ -10,72 +13,6 @@ a {
     text-decoration: none;
 }
 
-.contact:hover {
-    color: #2d5084;
-}
-
-/* NAVIGATION */
-
-h1 {
-    font-size: 3em;
-    font-family: 'Carrois Gothic', sans-serif;
-    margin: 5px;
-}
-
-p {
-    margin: 10px;
-}
-
-img {
-    border: solid white 4px;
-    display: block;
-    margin: 0 auto;
-    position: relative;
-    right: 4px;
-}
-
-i {
-    margin: 3% 5px;
-}
-
-.section {
-    height: auto;
-}
-
-.row {
-    width: 100%;
-}
-
-.section-about {
-    background-color: #2d5084;
-    color: white;
-}
-
-.section-title {
-    background-color: #293854;
-    color: white;
-}
-
-.contact * {
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.contact p {
-    color: #777;
-}
-
-@media screen and (min-width: 520px) {
-    .title {
-        font-size: 7em;
-        width: 100%;
-        position: relative;
-        top: 25%;
-        -ms-transform: rotate(90deg); /* IE 9 */
-        -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
-        transform: rotate(90deg);
-    }
-    .powered {
-        margin-top: 65%;
-    }
+a:hover {
+    color: #006600;
 }
